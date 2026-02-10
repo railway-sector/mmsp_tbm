@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.mapDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+b {
+  color: orange;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+calcite-action-bar {
+  --calcite-color-border-3: #555555;
+  --calcite-color-text-3: #bfbfbf;
 }
 
-.card {
-  padding: 2em;
+calcite-shell {
+  --calcite-color-foreground-1: #2b2b2b;
+  --calcite-color-text-1: #ffffff;
+  --calcite-color-background: #2b2b2b;
+  --calcite-color-border-3: #555555;
 }
 
-.read-the-docs {
-  color: #888;
+/* Utility Chart Panel */
+.lotNumberImage {
+  display: flex;
+  padding-left: 20px;
+}
+
+/* Header */
+.headerTitle {
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.date {
+  color: rgb(220, 220, 220);
+  font-size: 0.8rem;
+  width: 200px;
+  height: 20px;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.dropdownFilterLayout {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* total Progress */
+
+/* Information panel */
+.informationDiv {
+  padding-right: 10px;
 }
